@@ -1,28 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import BarraLateral from './components/BarraLateral/BarraLateral'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <h1> Teste </h1>
-          <code>src/App.js</code> and save to reload.
-
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        
-        <button type="button" class="btn btn-primary">Primary</button>
-      </header>
+    <div>
+        <BarraLateral/>
     </div>
   );
 }
